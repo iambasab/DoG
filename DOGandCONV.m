@@ -1,3 +1,22 @@
+%% This is the the piece of code that I used for my PhD work - and designed and implemented during 2006 - 2007.
+% The snippet copy-pasted from my repertoire of codes can be used to generate the DoG filters designed to model 
+% foveal information processing. 
+% The Convolution code is also added here, which can be used for filtering an input image. I had used 256x256
+% monochrome images for my thesis.
+
+%% PLEASE SEE THE FOLLOWING FOR FURTHER INFORMATION ON THE WORK
+
+% Citations: 
+%[1] Basabdatta Sen Bhattacharya, Stephen B. Furber, 
+%"Biologically-inspired means for rank-order encoding images: a quantitative analysis", 
+%IEEE Transactions on Neural Networks, vol.21 (7), pp. 1087-1099, July 2010. doi:10.1109/TNN.2010.2048339
+
+%[2] Basabdatta Sen Bhattacharya, Stephen B. Furber, 
+%“Evaluating rank-order code performance using a biologically derived retinal model”, 
+%Proc. International Joint Conference on Neural Networks (IJCNN), 
+%pp. 2867-2874, June 2009, Atlanta. [doi]   [ieee Xplore]
+
+
 tic
 ma = 128; na=128; dogsc =8;
 
