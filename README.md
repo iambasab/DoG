@@ -1,7 +1,7 @@
 # DoG_Convolution - "Information recovery from rank-order encoded images" (2008)
-This repository contains the matlab files that I developed as a part of my Doctoral work at the University of Manchester, School of Computer Science. The thesis link is here.
-http://apt.cs.manchester.ac.uk/people/bsen/my_thesis.pdf
-The files are not commented well, but if you would want to use any part of the code for your work, please get in touch and I am happy to walk you through the codes.
+This repository contains the matlab files that I developed as a part of my Doctoral work at the University of Manchester, School of Computer Science. The thesis link is here.\n
+http://apt.cs.manchester.ac.uk/people/bsen/my_thesis.pdf  \n
+The files are not commented well, but if you would want to use any part of the code for your work, please drop me a mail and I am happy to walk you through the codes. (basab.sen.b@gmail.com)
 The publications that resulted out of this doctoral work are here:
 1. Basabdatta Sen Bhattacharya, Stephen B. Furber, "Biologically-inspired means for rank-order encoding images: a quantitative analysis", IEEE Transactions on Neural Networks, vol.21 (7), pp. 1087-1099, July 2010. doi:10.1109/TNN.2010.2048339
 2.Basabdatta Sen, Stephen B. Furber, “Maximising information recovery from rank-order codes”, Proc. SPIE 6570, Data Mining, Intrusion Detection, Information Assurance, and Data Networks Security 2007, 65700C (Ed) Belur V. Dasarathy, pp. 9-13, 9th April 2007, Orlando.   doi: 10.1117/12.717799. [spie.org]  [Spie Digital Library]
