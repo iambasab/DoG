@@ -1,8 +1,11 @@
-%% Code used in Thesis: Information Recovery from Rank-order encoded Images.
-% Basabdatta Sen Bhattacharya, Supervisor: Prof Steve Furber
-% School of Computer Science, University of Manchester 2008
+
 
 function C = midconv1(A,samp_resol,filt_dim,cent_dev,cell_type,cell_polarity,shift)
+
+%% This function is being called from within the script file main2/lilianIII.m for generating the coefficient matrices by performing a convolution of the %% image matrix with the DoG filter matrices. 
+%% kr and kc are the sampling resolution during filtering of A by B along
+%% the rows and the columns respectively
+
 
 B=dog1(filt_dim,cent_dev,cell_type,shift); 
 if (cell_polarity==1)%% 1 is for off-centre cell; 2 will be for on-centre

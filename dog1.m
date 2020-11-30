@@ -1,9 +1,7 @@
-%% Code used in Thesis: Information Recovery from Rank-order encoded Images.
-% Basabdatta Sen Bhattacharya, Supervisor: Prof Steve Furber
-% School of Computer Science, University of Manchester 2008
-% 
+
 function D1 = dog1(n,v,p,shift)
 
+% This function is being called from the script file main2/lilianIII.m and also from the function myfunction/midconv1.m to generate a DoG filter.
 
 %% off-centre midget:
 % n=3; v=0.02;p=1;
